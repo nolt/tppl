@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.1
+ * @version 1.6.1
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,10 +11,13 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2015 - The TinyPortal Team
+ * Copyright (C) 2018 - The TinyPortal Team
  *
+ * @polskie t³umaczenie Nolt
  */
-
+// Responsive themes form
+$txt['tp-formres'] ='Select non responsive themes';
+$txt['tp-deselectthemes'] ='Deselect all themes';
 // Navigation links called from source files
 $txt['tp-modules'] = 'Modu³y';
 $txt['tp-adminnews1'] = 'Nowo¶ci';
@@ -101,7 +104,7 @@ $txt['tp-frontblocksingle']='Je¶li nie zaznaczono inaczej, ukryj przedni panel.'
 $txt['tp-frontpage'] = 'Strona g³ówna';
 $txt['tp-frontpage_layout'] = 'Wygl±d artyku³ów na stronie g³ównej:';
 $txt['tp-frontpage_settings']= 'Ustawienia strony g³ównej';
-$txt['tp-frontpageoptions'] = 'Dodatkowe panele wy¶wietlane na stronie g³ównej: <br /><span class="smalltext" style="color: #ff0000;">( Uwaga: tylko dla strony g³ównej, ta opcja ignoruje ka¿dy panel który jest w³±czony, ale tak¿e jest zignorowana przez artyku³y oparte na opcji artyku³ów na "pojedyñczej stronie". )</span>';
+$txt['tp-frontpageoptions'] = 'Dodatkowe panele wy¶wietlane na stronie g³ównej: <br><span class="smalltext">( Uwaga: tylko dla strony g³ównej, ta opcja ignoruje ka¿dy panel który jest w³±czony, ale tak¿e jest zignorowana przez artyku³y oparte na opcji artyku³ów na "pojedyñczej stronie". )</span>';
 $txt['tp-showforumposts']='Wy¶wietl wiadomo¶ci z wybranego forum na stronie g³ównej:';
 $txt['tp-numberofposts']='Liczba wiadomo¶ci/artyku³ów wy¶wietlanych na stronie g³ównej:';
 $txt['tp-numberofrecenttopics']='Liczba najnowszych w±tków: ';
@@ -113,6 +116,9 @@ $txt['tp-singlepage']='Najnowszy artyku³ panelem przednim';
 $txt['tp-onlyforum']='Tylko wiadomo¶ci z forum';
 $txt['tp-displaynews']='Poka¿ informacje o u¿ytkowniku/nowo¶ci na górze';
 $txt['tp-usewysiwyg'] = 'U¿yæ edytora WYSIWYG?';
+$txt['tp-usedragdrop'] = 'Enable the DragDrop feature in the WYSIWYG Editor?';
+$txt['tp-imageproxycheck'] = 'Perform the final image proxy check?';
+$txt['tp-imageproxycheckdesc'] = '(This defaults to ON and is only effective when SMF Image Proxy is Enabled. Deactivating this option may resolve conflicts with certain Mods, but will deactivate the image proxy for http images in PHP articles and HTML blocks.)';
 $txt['tp-frontmodule'] = 'Modu³y TP';
 $txt['tp-nofrontmodule'] =  'Brak dostêpnych modu³ów.';
 $txt['tp-forumposts_avatar'] = 'Poka¿ awatary w wiadomo¶ciach na forum?';
@@ -175,7 +181,8 @@ $txt['tp-setsticky'] = 'Ustaw artyku³ jako przyklejony lub nie';
 $txt['tp-islocked'] = 'Ten artyku³ jest zablokowany przed edycj±';
 $txt['tp-setlock'] = 'Zablokuj artyku³ aby nie móg³ byæ edytowany';
 $txt['tp-printarticles'] = 'Poka¿ ikonê drukowania w artyku³ach?';
-$txt['tp-illustration'] = 'Alternatywna ikona listy (128x128 px)';
+$txt['tp-illustration'] = 'Ikona artyku³u <span class="smalltext">(128x128 px)</span>';
+$txt['tp-illustration2'] = 'Wybierz kolejny obrazek:';
 $txt['tp-nocat'] = '-brak nadrzêdnej-';
 $txt['tp-catlayouts'] = 'Typy wygl±du:';
 $txt['tp-catlayout1'] = 'Normalne artykuly';
@@ -204,8 +211,8 @@ $txt['tp-bbcarticle'] = 'Artyku³ typu BBC';
 $txt['tp-adminicons3'] = 'Ikony które maj± byæ u¿yte w kategoriach i artyku³ach.';
 $txt['tp-adminicons4'] = 'Wy¶lij now± ikonê:';
 $txt['tp-adminicons7'] = 'Ilustracje które bêd± u¿yte w kategoriach (wygl±d 4).';
-$txt['tp-adminicons6'] = 'Wy¶lij now± ilustracjê:<br /><span class="smalltext">Obrazek bêdzie pomniejszony do 128x128 pikseli.</span>';
-$txt['tp-adminicons5'] = 'Ilustracje';
+$txt['tp-adminicons6'] = 'Wy¶lij now± ilustracjê:';
+$txt['tp-adminiconsinfo'] = 'PNG, JPG or GIF, Max-size: 500KB. Images will be resized so the shortest side is 128 px, while retaining aspect ratio. Note that the top right area of the image will be used as article icon.';
 $txt['tp-adminlabels'] = 'Etykietki';
 $txt['tp-adminlabels2'] = 'Zarz±dzaj etykietkami artyku³ów u¿ytych w wyszukiwaniu.';
 $txt['tp-adminpresets'] = 'Obecne';
@@ -250,8 +257,15 @@ $txt['tp-articleoptions24'] = 'U¿yj ustawieñ z kategorii!';
 $txt['tp-editcategory'] = 'Edytuj';
 $txt['tp-showsociallinks'] = 'Poka¿ przyciski portali spo³eczno¶ciowych';
 $txt['tp-noicon'] = '- Bez ikony -';
-$txt['tp-showglobaltags'] = 'Poka¿ globalne tagi';
 $txt['tp-editorheight'] = 'Wysoko¶æ edytora WYSIWYG?';
+$txt['tp-hidearticle-facebook'] = 'Hide Facebook button?';
+$txt['tp-hidearticle-twitter'] = 'Hide Twitter button?';
+$txt['tp-hidearticle-google'] = 'Hide Google button?';
+$txt['tp-hidearticle-reddit'] = 'Hide Reddit button?';
+$txt['tp-hidearticle-digg'] = 'Hide Digg button?';
+$txt['tp-hidearticle-delicious'] = 'Hide Delicious button?';
+$txt['tp-hidearticle-stumbleupon'] = 'Hide Stumbleupon button?';
+$txt['tp-hidearticle-link'] = 'Hide the edit article link under articles?';
 
 // Blocks admin...
 $txt['tp-addcenterblock']='Dodaj wy¿szy blok';
@@ -263,6 +277,7 @@ $txt['tp-addtopblock'] = 'Dodaj górny blok';
 $txt['tp-allowupshrink'] = 'Zezwól na zwijanie bloku';
 $txt['tp-addbottomblock'] = 'Dodaj dolny blok';
 $txt['tp-blocks'] = 'Bloki';
+$txt['tp-blocksettings'] = 'Ustawienia bloków';
 $txt['tp-blocktypes'] = '
 	<ul>
 		<li>userbox - informacje o u¿ytkowniku + pole logowania dla go¶ci</li>
@@ -286,7 +301,7 @@ $txt['tp-blocktypes'] = '
 		<li>articlebox - poka¿ pojedyñczy artyku³</li>
 	</ul>
   ';
-$txt['tp-actionarray'] = 'Poka¿ dla tej akcji<br /> (w³asna nazwa akcji)';
+$txt['tp-actionarray'] = 'Poka¿ dla tej akcji<br> (w³asna nazwa akcji)';
 $txt['tp-actionreverse'] = 'Odwrotne kryteria';
 $txt['tp-activate']='Aktywuj';
 $txt['tp-activated']='Aktywny';
@@ -298,7 +313,7 @@ $txt['tp-editgroups'] = 'Blok mo¿e byc edytowany przez dodatkow± grupê u¿ytkowni
 $txt['tp-editsave'] = 'Edytuj - Zapisz';
 $txt['tp-blockconfirmdelete'] = 'Czy jeste¶ pewieñ ¿e chcesz usun±æ ten blok?';
 $txt['tp-editblocks'] = 'Bloki';
-$txt['tp-editgrouphelp'] = 'Wybierz dodatkow± grupê u¿ytkowników którzy mog± edytowaæ tylko ten blok. <br /><br />Zauwa¿ ¿e zezwolenia "zarz±dzanie_blokami" i "admin" zawsze daj± mo¿liwo¶ci do edycji wszystkich bloków.';
+$txt['tp-editgrouphelp'] = 'Wybierz dodatkow± grupê u¿ytkowników którzy mog± edytowaæ tylko ten blok. <br><span class="smalltext">Zauwa¿ ¿e zezwolenia "zarz±dzanie_blokami" i "admin" zawsze daj± mo¿liwo¶ci do edycji wszystkich bloków.<span>';
 $txt['tp-langarray'] = 'Poka¿ dla tego jêzyka ( zauwa¿ ¿e blok MUSI byæ ustawiony gdzie¶ wy¶wietlany i ustawiony aby by³ widoczny )';
 $txt['tp-langhelp'] = 'Dodaj w³asny tytu³ bloku dla ka¿dego zainstalowanego jêzyka - oprócz standardowego. ';
 $txt['tp-looseblocks'] = 'Blok nigdzie nie wy¶wietlany';
@@ -310,7 +325,7 @@ $txt['tp-moveleft']='Przesuñ do panelu lewego';
 $txt['tp-movelower'] = 'Przesuñ do panelu ni¿szego';
 $txt['tp-moveright']='Przesuñ do panelu prawego';
 $txt['tp-moveup'] = 'Przesuñ do panelu górnego';
-$txt['tp-membergrouphelp']='Wybierz grupê u¿ytkowników którzy bêd± mogli widzieæ blok.<br /><br /> Zauwa¿ ¿e je¶li nie jest wybrany <b>¿aden</b> bêdzie on pokazywany tylko administratorom.';
+$txt['tp-membergrouphelp']='Wybierz grupê u¿ytkowników którzy bêd± mogli widzieæ blok.<br><br> Zauwa¿ ¿e je¶li nie jest wybrany <b>¿aden</b> bêdzie on pokazywany tylko administratorom.';
 $txt['tp-membergrouptext']='Wybierz dostêp dla swojej grupy u¿ytkowników po zapisaniu bloku. Bloki standardowo po utworzeniu s± wy³±czone.';
 $txt['tp-typeofblock'] = 'Pomy¶lnie utworzy³e¶ nowy blok. Tutaj mo¿esz wybraæ jakiego typu ma byæ nowy blok.';
 $txt['tp-panelclosed']= 'Uwaga: ten panel jest wy³±czony w panelu ustawieñ bloków.';
@@ -341,8 +356,14 @@ $txt['tp-rightsideblocks']='Bloki panelu prawego';
 $txt['tp-frontsideblocks']='Bloki panelu centralnego';
 $txt['tp-gobackurl'] = 'Wróæ do strony z po³o¿eniem bloków';
 $txt['tp-gobackallblocks'] = 'Wróæ do wszystkich bloków';
-$txt['tp-blocknotice'] = 'Uwaga! Typ bloku zosta³ zmieniony.<br />Prosimy o zapisanie najpierw bloku aby zobaczyæ jego nowe funkcje!';
+$txt['tp-blocknotice'] = 'Uwaga! Typ bloku zosta³ zmieniony.<br>Prosimy o zapisanie najpierw bloku aby zobaczyæ jego nowe funkcje!';
 $txt['tp-allboards'] = 'Poka¿ we wszystkich forach';
+$txt['tp-allboards'] = 'Display on all boards';
+$txt['tp-blocksusepaneltyle'] = 'Use Panel style';
+$txt['tp-blockstylehelp'] = 'Choose style for the block';
+$txt['tp-blockstylehelp2'] = '(This setting determines the style used for displaying the block. If a specific style is chosen for a block, the block style will take priority over the panel style.)';
+
+$txt['tp-adminshowblocks'] = 'Let admin show all blocks?';
 
 // Block Types...
 $txt['tp-userbox1']='Awatar (je¶li jest)';
@@ -382,7 +403,7 @@ $txt['tp-hidearticle-link'] = 'Ukryj link do edycji artyku³ów pod artyku³ami?';
 $txt['tp-hidebarsadminonly'] = 'Ukryj panele gdy jeste¶ w panelu administracyjnym?';
 $txt['tp-hidebarsall'] = 'Ukryj panele gdy jeste¶ w tej sekcji:';
 $txt['tp-hidebarscalendar'] = 'Widok kalendarza';
-$txt['tp-hidebarscustom'] = 'Ukryj panele we w³asnych sekcjach:<br /><span class="smalltext">( oddziel sekcje kropk±.<br /> Na przyk³ad: "gallery,arcade,shop" )</span>';
+$txt['tp-hidebarscustom'] = 'Ukryj panele we w³asnych sekcjach:<br><span class="smalltext">( oddziel sekcje kropk±.<br> Na przyk³ad: "gallery,arcade,shop" )</span>';
 $txt['tp-hidebarsmemberlist'] = 'Ekran listy u¿ytkowników';
 $txt['tp-hidebarspm'] = 'Ekran prywatnych wiadomo¶ci';
 $txt['tp-hidebarsprofile'] = 'Ekran profilu';
@@ -406,13 +427,59 @@ $txt['tp-uselowerpanel']='U¿yj ni¿szego panelu?';
 $txt['tp-usetoppanel']='U¿yj górnego panelu?';
 $txt['tp-usebottompanel']='U¿yj dolnego panelu?';
 
+-- do poprawy
+// Panels admin
+$txt['tp-panelsettings'] = 'Panel Settings';
+$txt['tp-panel'] = 'Panel';
+$txt['tp-hidebarsall'] = 'Hide panels when in these sections:';
+
+$txt['tp-hidebarsprofile'] = 'Profile screen';
+$txt['tp-hidebarspm'] = 'Personal Messages screen';
+$txt['tp-hidebarsmemberlist'] = 'Memberlist screen';
+$txt['tp-hidebarssearch'] = 'Search screen';
+$txt['tp-hidebarscalendar'] = 'Calendar screen';
+$txt['tp-hidebarscustom'] = 'Hide panels when in custom actions:<br><span class="smalltext">(separate the actions with comma.<br> For example: "gallery,arcade,shop")</span>';
+$txt['tp-padding_between']='Padding between panels:';
+$txt['tp-inpixels']='in pixels';
+$txt['tp-panelwidth'] = 'Width of this panel';
+
+$txt['tp-useleftpanel']='Use left panel?';
+$txt['tp-userightpanel']='Use right panel?';
+$txt['tp-useupperpanel']='Use upper panel?';
+$txt['tp-usecenterpanel']='Use upper panel?';
+$txt['tp-uselowerpanel']='Use lower panel?';
+$txt['tp-usetoppanel']='Use top panel?';
+$txt['tp-usebottompanel']='Use bottom panel?';
+
+$txt['tp-hide_leftbar_forum']='Hide left panel when in forum?';
+$txt['tp-hide_rightbar_forum']='Hide right panel when in forum?';
+$txt['tp-hide_topbar_forum'] = 'Hide top panel when in forum?';
+$txt['tp-hide_centerbar_forum']='Hide upper panel when in forum?';
+$txt['tp-hide_lowerbar_forum'] = 'Hide lower panel when in forum?';
+$txt['tp-hide_bottombar_forum'] = 'Hide bottom panel when in forum?';
+
+$txt['tp-vertical'] = 'Display the blocks vertically(default)';
+$txt['tp-horisontal'] = 'Display the blocks horizontally';
+$txt['tp-horisontal2cols'] = 'Display the blocks in 2 columns';
+$txt['tp-horisontal3cols'] = 'Display the blocks in 3 columns';
+$txt['tp-horisontal4cols'] = 'Display the blocks in 4 columns';
+$txt['tp-grid'] = 'Display the blocks according to a grid';
+$txt['tp-blockwidth'] = '<b>Force</b> this width on each block (use 00px or 00%)';
+$txt['tp-blockheight'] = '<b>Force</b> this height on each block(use 00px or 00%)';
+$txt['tp-panelstylehelp'] = 'Default style for the blocks in the panel:';
+$txt['tp-panelstylehelp2'] = '(This setting determines the default style used for displaying blocks in this panel. If a specific style is chosen for a block in the block settings, the block style will take priority over any panel style chosen here.)';
+
+/
 // TP Settings
-$txt['tp-fixedwidth'] = 'Ustaw szeroko¶æ:';
 $txt['tp-generalsettings'] = 'Ustawienia g³ówne';
-$txt['tp-fixedwidth2'] = '( w pikselach - U¿yj 0 dla 100% szeroko¶ci )';
 $txt['tp-hidecollapse'] = 'Zezwól na zwijanie paneli?';
-$txt['tp-stars'] = 'Max ocena:<br /><br />Poka¿ gwiazdki zamiast liczb?';
+$txt['tp-hideediticon'] = 'Hide the block edit link?';
+
+$txt['tp-maxrating'] = 'Maksymalna ocena:';
+$txt['tp-stars'] = 'Wy¶wietliæ gwiazki zamiast liczb?';
+
 $txt['tp-themesavail']='Style dostêpne w bloku ze stylami:';
+$txt['tp-hidebarsadminonly'] = 'Ukryæ panele w panelu admina?';
 
 // Modules Admin
 $txt['tp-installmenow'] = 'Zainstalowaæ modu³?';
@@ -422,7 +489,7 @@ $txt['tp-tpversion'] = 'Wersja TP';
 $txt['tp-smfversion'] = 'Wersja SMF';
 $txt['tp-website'] = 'WWW';
 $txt['tp-email'] = 'Email';
-$txt['tp-subqueryalreadyinstalled'] = 'Modu³ ten u¿ywa takiego samego podzapytania jak inny modu³!<br /> Usuñ istniej±cy modu³ przed prób± instalacji nowego.';
+$txt['tp-subqueryalreadyinstalled'] = 'Modu³ ten u¿ywa takiego samego podzapytania jak inny modu³!<br> Usuñ istniej±cy modu³ przed prób± instalacji nowego.';
 $txt['tp-removemodulesettings'] = 'Usuñ ustawienia modu³u gdy bêdzie odinstalowany. ';
 $txt['tp-uploadedmodules'] = 'Przes³ane modu³y';
 $txt['tp-upload_tpmodule'] = 'Prze¶lij modu³';
@@ -432,6 +499,7 @@ $txt['tp-moduleset']='Opcje zarz±dzania modu³em';
 $txt['tp-sitemapmodules'] = 'Aktywne modu³y';
 $txt['tp-subquery'] = 'U¿yte zapytania';
 $txt['tp-installed'] = 'Zainstalowane';
+
 
 // News...
 $txt['tp-latest_news'] = 'Nowo¶ci';
@@ -454,12 +522,14 @@ $txt['tp-suremenu']='Czy aby napewno chcesz skasowaæ ten przedmiot menu?';
 $txt['tp-nowindowmenu'] = 'W tym samym oknie';
 $txt['tp-link']='Link';
 $txt['tp-spacer'] = 'Odstêp';
+$txt['tp-menu']='Przycisk menu';
 $txt['tp-item']='Item';
 $txt['tp-sitemap_on'] = 'Sitemap?';
 $txt['tp-showmenustyle'] = 'Styl Menu:';
 $txt['tp-showmenus'] = 'U¿yj menu:';
 $txt['tp-showmenusvar1'] = 'Typ menu';
 $txt['tp-showmenusvar2'] = 'Zmienna typu menu';
+$txt['tp-menu-after'] ='Dodaj menu po';
 
 // Shoutbox Manager
 $txt['tp-deleteallshouts'] = 'Skasowaæ wszystkie shouty?';
@@ -493,8 +563,8 @@ $txt['tp-delete']='Usuñ';
 $txt['tp-display']='Wy¶wietl:';
 $txt['tp-sortdown'] = 'Do do³y';
 $txt['tp-sortup'] = 'Do góry';
-$txt['tp-off'] = 'Wy³±czony';
 $txt['tp-on']='W³±czony';
+$txt['tp-off'] = 'Wy³±czony';
 $txt['tp-yes']='Tak';
 $txt['tp-no']='Nie';
 $txt['tp-type']='Typ';
@@ -509,7 +579,8 @@ $txt['tp-remove'] = 'Usuñ';
 $txt['tp-pos'] = 'Pozycja';
 $txt['tp-send']='Zapisz';
 $txt['tp-useonfrontpage'] = 'Nadpisaæ ustawienia strony g³ównej gdy jest na niej wy¶wietlany?';
-
+$txt['tp-more']='Wiêcej ';
+$txt['tp-hide']='Ukryj ';
 $txt['tp-blocktype0'] = '- nie ustawiony -';
 $txt['tp-blocktype1'] = 'Info. u¿ytkownika / logowanie';
 $txt['tp-blocktype2'] = 'Nowo¶ci';
@@ -544,6 +615,7 @@ $txt['tp-helppanels'] = 'Bloki s± usytuowane w panelach, ka¿dy panel posiada w³a
 $txt['tp-helpartsettings'] = 'Wybrane ustawienia dla artyku³ów.';
 $txt['tp-helpfrontpage'] = 'Zarz±dzanie ustawieniami strony g³ównej.';
 $txt['tp-helparticles'] = 'S± to kategorie artyku³ów, zawieraj± liczbê artyku³ów w poszczególnych kategoriach. Wylistowana jest tak¿e sub-kategoria(kliknij aby pokazaæ wiêcej).';
+$txt['tp-helpmenuitems'] = 'Here you can create and change the menu items for the menu. The menu item types available are: Category, Article, Link, Header, Spacer or Menu button (only in the <i>Internal</i> menu)<br>';
 
 $txt['tp-assignnewauthor'] = 'ID autora(zmieñ aby przypisaæ do innego)';
 $txt['tp-uncategorised'] = 'Bez kategorii';
@@ -577,6 +649,7 @@ $txt['tp_shout'] = 'Shoutbox';
 
 $txt['tp-rssblock-showavatar'] = 'Poka¿ awatary?';
 $txt['tp-rssblock-maxwidth'] = 'Maksymalna szeroko¶æ wie¶ci RSS';
+$txt['tp-rssblock-maxshown'] = 'Maximum number of items shown in rss feed ( 0 sets max to 20 )';
 
 $txt['tp-permissions'] = 'Zezwolenia';
 $txt['tp-permdesc1'] = 'Zezwolenia dla funkcji TP. Zauwa¿ ¿e niektóre fukcje s± dla administracji natomiast inne dla u¿ytkowników.';
@@ -592,15 +665,12 @@ $txt['tp-redirectforum2'] = 'Przekieruj na stronê g³ówn±';
 $txt['tp-useroundframepanels'] = 'U¿yj stylu ramki dla lewych/prawych paneli?';
 $txt['tp-allowedgroups'] = 'Grupy u¿ytkowników którzy widz± kategoriê';
 
-$txt['tp-blockstylehelp'] = 'Wybierz styl dla bloków';
-$txt['tp-adminshowblocks'] = 'Pozwól Administratorowi widzieæ wszystkie bloki.';
-
 $txt['tp-admin_showblocks'] = 'Administrator widzi wszystkie bloki';
 $txt['tp-uselangoption'] = 'Wy¶wietl opcjê jêzykow± dla bloku.';
 $txt['tp-uselangoption2'] = 'NB! Widoczno¶æ opcji jêzykowej jest wy³±czona. Wybór jêzyka bêdzie niemo¿liwy do momentu gdy nie zostanie w³±czony.';
 
 $txt['tp-created'] = 'Utworzony';
-$txt['tp-published'] = 'Publikuj';
+$txt['tp-published'] = 'Opublikowany';
 $txt['tp-pub_start'] = 'z';
 $txt['tp-pub_end'] = 'dopóki';
 
@@ -627,4 +697,13 @@ $txt['tp-sticky5'] = 'Styl normalny + czerwone t³o';
 $txt['tp-sticky6'] = 'Styl normalny + zielone t³o';
 $txt['tp-unstickallshouts'] = 'Odkleiæ wszystkie przyklejone shouty?';
 
+$txt['tp-fulltextsearch']       = 'Enable TinyPortal Full Text search';
+$txt['tp-fulltextsearchdesc']   = 'Enable Full Text Search for the Article Search Functionality';
+$txt['tp-copyrightremoval'] = 'TinyPortal Copyright Removal';
+$txt['tp-copyrightremovaldesc'] = 'Enter your unique key to remove the TinyPortal Copyright Notice';
+
+// new in 1.6.1
+$txt['tp-nosubmissions'] = 'Currently there are no submissions awaiting approval.';
+$txt['tp-use_groupcolor'] = 'Use membergroup color for user names throughout the forum';
+$txt['tp-use_groupcolordesc'] = '(The general TP setting takes preference over the shoutbox setting.)';
 ?>

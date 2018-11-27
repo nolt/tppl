@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.1
+ * @version 1.6.1
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,8 +11,9 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2015 - The TinyPortal Team
+ * Copyright (C) 2018 - The TinyPortal Team
  *
+ * @polskie t³umaczenie Nolt
  */
 
 //  SVN Rev67
@@ -47,6 +48,9 @@ $txt['tp-notallowed'] = 'Brak dostêpu do tej sekcji.';
 $txt['tp-notfound'] = 'Nie znaleziono przedmiotu/sekcji.';
 $txt['tp-sortby'] = 'Sortowanie wg.';
 $txt['tp-useredit'] = 'Edytuj plik';
+$txt['tp-dlcatedit'] = 'Edytuj kategoriê';
+$txt['tp-dlcatadd'] = 'Dodaj kategoriê';
+$txt['tp-dlpreview'] = 'Wy¶wietl download';
 
 // TPdlmanager template
 //  SVN Rev67
@@ -75,6 +79,7 @@ $txt['tp-recentuploads2'] = 'Ostatnio dodany plik:';
 $txt['tp-search'] = 'Szukaj';
 $txt['tp-stats'] = 'Statystyki';
 $txt['tp-warnsubmission'] = ' Wszystkie pliki wymagaj± zatwierdzenia przez Administratora.';
+$txt['tp-nosubmissions'] = 'Obecnie nie ma ¿adnych wniosków oczekuj±cych na zatwierdzenie.';
 $txt['tp-searcharea-descr'] = 'Not Defined Yet 2';
 $txt['tp-searcharea-name'] = 'Przeszukaj tytu³y';
 $txt['tp-dosubmit'] = 'Zapisz';
@@ -88,8 +93,7 @@ $txt['tp-adminftp_newfiles'] = 'Pliki dodane pomy¶lnie. Sprawd¼ kategoriê do któ
 $txt['tp-approveno'] = 'Nie, ale zezwolenie na wysy³anie bêdzie tak¿e wymagane';
 $txt['tp-approveyes'] = 'Tak, prócz grupy u¿ytkowników która mo¿e zarz±dzaæ plikami (dzia³ download).';
 $txt['tp-assigncatparent'] = 'Kategoria ¼ród³owa/kategoria g³ówna:';
-$txt['tp-assignftp'] = 'U¿ywaj±c ró¿nych kategorii do ka¿dego z plików, mo¿esz przypisaæ pliki indywidualnie. Je¶li wysy³asz kilka plików, mo¿esz przypisaæ je do jednej kategorii za jednym klikniêciem.
-Je¶li napiszesz co¶ w polu_nowej_kategorii, zostanie u¿ywa owa opcaja. Opcja tworzy tak¿e specjalny katalog dla tych plików.';
+$txt['tp-assignftp'] = 'U¿ywaj±c ró¿nych kategorii do ka¿dego z plików, mo¿esz przypisaæ pliki indywidualnie. Je¶li wysy³asz kilka plików, mo¿esz przypisaæ je do jednej kategorii za jednym klikniêciem. Je¶li napiszesz co¶ w polu_nowej_kategorii, zostanie u¿ywa owa opcaja. Opcja tworzy tak¿e specjalny katalog dla tych plików.';
 $txt['tp-centerbar'] = 'Poka¿ panel górny';
 $txt['tp-chooseicon'] = '- wybierz ikonê -';
 $txt['tp-confirm'] = 'Czy jeste¶ pewien?';
@@ -138,13 +142,15 @@ $txt['tp-bottombar'] = 'Poka¿ dolny panel';
 $txt['tp-lowerbar'] = 'Poka¿ ni¿szy panel';
 $txt['tp-showtop'] = 'Poka¿ nag³ówek';
 $txt['tp-categories'] = 'Kategorie';
+$txt['tp-childcategories'] = 'Kategorie podrzêdne';
 
 $txt['tp-dlcreatetopic'] = 'Stworzyæ nowy w±tek?';
 $txt['tp-dlcreatetopic_sticky'] = 'Ustawiæ jako przyklejony?';
 $txt['tp-dlcreatetopic_announce'] = 'Og³osiæ?';
 $txt['tp-dlchooseboard'] = 'Wybierz forum w którym ma znajdowaæ siê w±tek';
 $txt['tp-dlusescreenshot'] = 'U¿yæ obrazka zamiast ikony?';
-$txt['tp-dlscreenshotsizes'] = 'Powiêksz rozmiary obrazka:';
+$txt['tp-dlscreenshotsize1'] = 'Powiêksz rozmiar obrazka miniatury:';
+$txt['tp-dlscreenshotsize2'] = 'Powiêksz rozmiary obrazka g³ównego:';
 $txt['tp-dlperms'] = 'Zezwolenia';
 $txt['tp-dlperms2'] = 'Wybierz i ustaw zezwolenia dla wszystkich grup u¿ytkowników. "Zarz±dzaj plikami" daje prawa administratora dla wszystkich plików, 
 "Wy¶lij plik" daje prawa na wysy³anie plików, "utówrz w±tek" daje prawa do utowrzenia w±tku dla pliku który zosta³ wys³any.';
@@ -165,5 +171,7 @@ $txt['tp-dlnonint'] = 'Przepraszamy, próbowa³e¶ wprowadziæ nie ca³kowit± warto¶æ
 $txt['tp-dlfilenotdel'] = 'Nie mo¿na skasowaæ aktualnego pliku, warto¶æ zosta³a usuniêta.';
 $txt['tp-dlssnotdel'] = 'Nie mo¿na skasowaæ aktalnego zrzutu ekranu, warto¶æ zosta³a usuniêta.';
 $txt['tp-dlnotuploaded'] = 'Plik nie zosta³ wys³any.';
-
+$txt['tp-dlnotitle'] = '-brak tytu³u-';
+$txt['tp-nocats'] = 'Nie znaleziono kategorii.';
+$txt['tp-nofiles'] = 'Obecnie nie ma ¿adnych plików w tej kategorii.';
 ?>

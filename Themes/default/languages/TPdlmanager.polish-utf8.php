@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.1
+ * @version 1.6.1
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,8 +11,9 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2015 - The TinyPortal Team
+ * Copyright (C) 2018 - The TinyPortal Team
  *
+ * @polskie tłumaczenie Nolt
  */
 
 //  SVN Rev67
@@ -47,6 +48,9 @@ $txt['tp-notallowed'] = 'Brak dostępu do tej sekcji.';
 $txt['tp-notfound'] = 'Nie znaleziono przedmiotu/sekcji.';
 $txt['tp-sortby'] = 'Sortowanie wg.';
 $txt['tp-useredit'] = 'Edytuj plik';
+$txt['tp-dlcatedit'] = 'Edytuj kategorię';
+$txt['tp-dlcatadd'] = 'Dodaj kategorię';
+$txt['tp-dlpreview'] = 'Wyświetl download';
 
 // TPdlmanager template
 //  SVN Rev67
@@ -75,6 +79,7 @@ $txt['tp-recentuploads2'] = 'Ostatnio dodany plik:';
 $txt['tp-search'] = 'Szukaj';
 $txt['tp-stats'] = 'Statystyki';
 $txt['tp-warnsubmission'] = ' Wszystkie pliki wymagają zatwierdzenia przez Administratora.';
+$txt['tp-nosubmissions'] = 'Obecnie nie ma żadnych wniosków oczekujących na zatwierdzenie.';
 $txt['tp-searcharea-descr'] = 'Not Defined Yet 2';
 $txt['tp-searcharea-name'] = 'Przeszukaj tytuły';
 $txt['tp-dosubmit'] = 'Zapisz';
@@ -88,8 +93,7 @@ $txt['tp-adminftp_newfiles'] = 'Pliki dodane pomyślnie. Sprawdź kategorię do 
 $txt['tp-approveno'] = 'Nie, ale zezwolenie na wysyłanie będzie także wymagane';
 $txt['tp-approveyes'] = 'Tak, prócz grupy użytkowników która może zarządzać plikami (dział download).';
 $txt['tp-assigncatparent'] = 'Kategoria źródłowa/kategoria główna:';
-$txt['tp-assignftp'] = 'Używając różnych kategorii do każdego z plików, możesz przypisać pliki indywidualnie. Jeśli wysyłasz kilka plików, możesz przypisać je do jednej kategorii za jednym kliknięciem.
-Jeśli napiszesz coś w polu_nowej_kategorii, zostanie używa owa opcaja. Opcja tworzy także specjalny katalog dla tych plików.';
+$txt['tp-assignftp'] = 'Używając różnych kategorii do każdego z plików, możesz przypisać pliki indywidualnie. Jeśli wysyłasz kilka plików, możesz przypisać je do jednej kategorii za jednym kliknięciem. Jeśli napiszesz coś w polu_nowej_kategorii, zostanie używa owa opcaja. Opcja tworzy także specjalny katalog dla tych plików.';
 $txt['tp-centerbar'] = 'Pokaż panel górny';
 $txt['tp-chooseicon'] = '- wybierz ikonę -';
 $txt['tp-confirm'] = 'Czy jesteś pewien?';
@@ -138,13 +142,15 @@ $txt['tp-bottombar'] = 'Pokaż dolny panel';
 $txt['tp-lowerbar'] = 'Pokaż niższy panel';
 $txt['tp-showtop'] = 'Pokaż nagłówek';
 $txt['tp-categories'] = 'Kategorie';
+$txt['tp-childcategories'] = 'Kategorie podrzędne';
 
 $txt['tp-dlcreatetopic'] = 'Stworzyć nowy wątek?';
 $txt['tp-dlcreatetopic_sticky'] = 'Ustawić jako przyklejony?';
 $txt['tp-dlcreatetopic_announce'] = 'Ogłosić?';
 $txt['tp-dlchooseboard'] = 'Wybierz forum w którym ma znajdować się wątek';
 $txt['tp-dlusescreenshot'] = 'Użyć obrazka zamiast ikony?';
-$txt['tp-dlscreenshotsizes'] = 'Powiększ rozmiary obrazka:';
+$txt['tp-dlscreenshotsize1'] = 'Powiększ rozmiar obrazka miniatury:';
+$txt['tp-dlscreenshotsize2'] = 'Powiększ rozmiary obrazka głównego:';
 $txt['tp-dlperms'] = 'Zezwolenia';
 $txt['tp-dlperms2'] = 'Wybierz i ustaw zezwolenia dla wszystkich grup użytkowników. "Zarządzaj plikami" daje prawa administratora dla wszystkich plików, 
 "Wyślij plik" daje prawa na wysyłanie plików, "utówrz wątek" daje prawa do utowrzenia wątku dla pliku który został wysłany.';
@@ -165,5 +171,7 @@ $txt['tp-dlnonint'] = 'Przepraszamy, próbowałeś wprowadzić nie całkowitą w
 $txt['tp-dlfilenotdel'] = 'Nie można skasować aktualnego pliku, wartość została usunięta.';
 $txt['tp-dlssnotdel'] = 'Nie można skasować aktalnego zrzutu ekranu, wartość została usunięta.';
 $txt['tp-dlnotuploaded'] = 'Plik nie został wysłany.';
-
+$txt['tp-dlnotitle'] = '-brak tytułu-';
+$txt['tp-nocats'] = 'Nie znaleziono kategorii.';
+$txt['tp-nofiles'] = 'Obecnie nie ma żadnych plików w tej kategorii.';
 ?>
