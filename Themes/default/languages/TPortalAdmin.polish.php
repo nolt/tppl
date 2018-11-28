@@ -16,8 +16,8 @@
  * @polskie t³umaczenie Nolt
  */
 // Responsive themes form
-$txt['tp-formres'] ='Select non responsive themes';
-$txt['tp-deselectthemes'] ='Deselect all themes';
+$txt['tp-formres'] ='Wybierz nieresponsywne style';
+$txt['tp-deselectthemes'] ='Odznacz wszystkie style';
 // Navigation links called from source files
 $txt['tp-modules'] = 'Modu³y';
 $txt['tp-adminnews1'] = 'Nowo¶ci';
@@ -104,7 +104,7 @@ $txt['tp-frontblocksingle']='Je¶li nie zaznaczono inaczej, ukryj przedni panel.'
 $txt['tp-frontpage'] = 'Strona g³ówna';
 $txt['tp-frontpage_layout'] = 'Wygl±d artyku³ów na stronie g³ównej:';
 $txt['tp-frontpage_settings']= 'Ustawienia strony g³ównej';
-$txt['tp-frontpageoptions'] = 'Dodatkowe panele wy¶wietlane na stronie g³ównej: <br><span class="smalltext">( Uwaga: tylko dla strony g³ównej, ta opcja ignoruje ka¿dy panel który jest w³±czony, ale tak¿e jest zignorowana przez artyku³y oparte na opcji artyku³ów na "pojedyñczej stronie". )</span>';
+$txt['tp-frontpageoptions'] = 'Dodatkowe panele wy¶wietlane na stronie g³ównej: <br><span class="smalltext">(Uwaga: tylko dla strony g³ównej, ta opcja ignoruje ka¿dy panel który jest w³±czony, ale tak¿e jest zignorowana przez artyku³y oparte na opcji artyku³ów na "pojedyñczej stronie".)</span>';
 $txt['tp-showforumposts']='Wy¶wietl wiadomo¶ci z wybranego forum na stronie g³ównej:';
 $txt['tp-numberofposts']='Liczba wiadomo¶ci/artyku³ów wy¶wietlanych na stronie g³ównej:';
 $txt['tp-numberofrecenttopics']='Liczba najnowszych w±tków: ';
@@ -265,7 +265,7 @@ $txt['tp-hidearticle-reddit'] = 'Hide Reddit button?';
 $txt['tp-hidearticle-digg'] = 'Hide Digg button?';
 $txt['tp-hidearticle-delicious'] = 'Hide Delicious button?';
 $txt['tp-hidearticle-stumbleupon'] = 'Hide Stumbleupon button?';
-$txt['tp-hidearticle-link'] = 'Hide the edit article link under articles?';
+$txt['tp-hidearticle-link'] = 'Ukryj link do edycji artyku³ów pod artyku³ami?';
 
 // Blocks admin...
 $txt['tp-addcenterblock']='Dodaj wy¿szy blok';
@@ -391,34 +391,20 @@ $txt['tp-oldcatmenu'] = 'U¿yj p³askiego stylu menu';
 $txt['tp-newcatmenu'] = 'U¿yj stylu menu rozwijanego';
 
 // Panels admin
-$txt['tp-panelwidth'] = 'Szeroko¶æ panelu';
-$txt['tp-blockwidth'] = '<b>Wymu¶</b> t± szeroko¶æ dla ka¿dego bloku(u¿yj 00px lub 00%)';
-$txt['tp-hide_bottombar_forum'] = 'Ukryj dolny panel gdy jeste¶ w forum?';
-$txt['tp-hide_centerbar_forum']='Ukryj wy¿szy gdy jeste¶ w forum?';
-$txt['tp-hide_leftbar_forum']='Ukryj lewy panel gdy jeste¶ w forum?';
-$txt['tp-hide_lowerbar_forum'] = 'Ukryj ni¿szy panel gdy jeste¶ w forum?';
-$txt['tp-hide_rightbar_forum']='Ukryj prawy panel gdy jeste¶ w forum?';
-$txt['tp-hide_topbar_forum'] = 'Ukryj górny panel gdy jeste¶ w forum?';
-$txt['tp-hidearticle-link'] = 'Ukryj link do edycji artyku³ów pod artyku³ami?';
-$txt['tp-hidebarsadminonly'] = 'Ukryj panele gdy jeste¶ w panelu administracyjnym?';
-$txt['tp-hidebarsall'] = 'Ukryj panele gdy jeste¶ w tej sekcji:';
-$txt['tp-hidebarscalendar'] = 'Widok kalendarza';
-$txt['tp-hidebarscustom'] = 'Ukryj panele we w³asnych sekcjach:<br><span class="smalltext">( oddziel sekcje kropk±.<br> Na przyk³ad: "gallery,arcade,shop" )</span>';
-$txt['tp-hidebarsmemberlist'] = 'Ekran listy u¿ytkowników';
-$txt['tp-hidebarspm'] = 'Ekran prywatnych wiadomo¶ci';
-$txt['tp-hidebarsprofile'] = 'Ekran profilu';
-$txt['tp-hidebarssearch'] = 'Wkran wyszukiwarki';
-$txt['tp-hideediticon'] = 'Ukryj link edycji bloku?';
-$txt['tp-horisontal'] = 'Wy¶wietl bloki poziomo';
-$txt['tp-grid'] = 'Wy¶wietl bloki w zale¿no¶ci od siatki';
-$txt['tp-padding_between']='Wype³nienie pomiêdzy panelami:';
-$txt['tp-panel'] = 'Panele';
 $txt['tp-panelsettings'] = 'Ustawienia paneli';
-$txt['tp-horisontal2cols'] = 'Wy¶wietl bloki w 2 kolumnach';
-$txt['tp-horisontal3cols'] = 'Wy¶wietl bloki w 3 kolumnach';
-$txt['tp-horisontal4cols'] = 'Wy¶wietl bloki w 4 kolumnach';
-$txt['tp-vertical'] = 'Wy¶wietl bloki pionowo(standardowo)';
+$txt['tp-panel'] = 'Panele';
+$txt['tp-hidebarsall'] = 'Ukryj panele gdy jeste¶ w tej sekcji:';
+
+$txt['tp-hidebarsprofile'] = 'Ekran profilu';
+$txt['tp-hidebarspm'] = 'Ekran prywatnych wiadomo¶ci';
+$txt['tp-hidebarsmemberlist'] = 'Ekran listy u¿ytkowników';
+$txt['tp-hidebarssearch'] = 'Ekran wyszukiwarki';
+$txt['tp-hidebarscalendar'] = 'Widok kalendarza';
+$txt['tp-hidebarscustom'] = 'Ukryj panele we w³asnych sekcjach:<br><span class="smalltext">(oddziel sekcje kropk±.<br> Na przyk³ad: "gallery,arcade,shop")</span>';
+$txt['tp-padding_between']='Wype³nienie pomiêdzy panelami:';
 $txt['tp-inpixels']='w pikselach';
+$txt['tp-panelwidth'] = 'Szeroko¶æ panelu';
+
 $txt['tp-useleftpanel']='U¿yj lewego panelu?';
 $txt['tp-userightpanel']='U¿yj prawego panelu?';
 $txt['tp-useupperpanel']='U¿yj wy¿szego panelu?';
@@ -427,53 +413,28 @@ $txt['tp-uselowerpanel']='U¿yj ni¿szego panelu?';
 $txt['tp-usetoppanel']='U¿yj górnego panelu?';
 $txt['tp-usebottompanel']='U¿yj dolnego panelu?';
 
--- do poprawy
-// Panels admin
-$txt['tp-panelsettings'] = 'Panel Settings';
-$txt['tp-panel'] = 'Panel';
-$txt['tp-hidebarsall'] = 'Hide panels when in these sections:';
+$txt['tp-hide_leftbar_forum']='Ukryj lewy panel gdy jeste¶ w forum?';
+$txt['tp-hide_rightbar_forum']='Ukryj prawy panel gdy jeste¶ w forum?';
+$txt['tp-hide_topbar_forum'] = 'Ukryj górny panel gdy jeste¶ w forum?';
+$txt['tp-hide_centerbar_forum']='Ukryj wy¿szy gdy jeste¶ w forum?';
+$txt['tp-hide_lowerbar_forum'] = 'Ukryj ni¿szy panel gdy jeste¶ w forum?';
+$txt['tp-hide_bottombar_forum'] = 'Ukryj dolny panel gdy jeste¶ w forum?';
 
-$txt['tp-hidebarsprofile'] = 'Profile screen';
-$txt['tp-hidebarspm'] = 'Personal Messages screen';
-$txt['tp-hidebarsmemberlist'] = 'Memberlist screen';
-$txt['tp-hidebarssearch'] = 'Search screen';
-$txt['tp-hidebarscalendar'] = 'Calendar screen';
-$txt['tp-hidebarscustom'] = 'Hide panels when in custom actions:<br><span class="smalltext">(separate the actions with comma.<br> For example: "gallery,arcade,shop")</span>';
-$txt['tp-padding_between']='Padding between panels:';
-$txt['tp-inpixels']='in pixels';
-$txt['tp-panelwidth'] = 'Width of this panel';
-
-$txt['tp-useleftpanel']='Use left panel?';
-$txt['tp-userightpanel']='Use right panel?';
-$txt['tp-useupperpanel']='Use upper panel?';
-$txt['tp-usecenterpanel']='Use upper panel?';
-$txt['tp-uselowerpanel']='Use lower panel?';
-$txt['tp-usetoppanel']='Use top panel?';
-$txt['tp-usebottompanel']='Use bottom panel?';
-
-$txt['tp-hide_leftbar_forum']='Hide left panel when in forum?';
-$txt['tp-hide_rightbar_forum']='Hide right panel when in forum?';
-$txt['tp-hide_topbar_forum'] = 'Hide top panel when in forum?';
-$txt['tp-hide_centerbar_forum']='Hide upper panel when in forum?';
-$txt['tp-hide_lowerbar_forum'] = 'Hide lower panel when in forum?';
-$txt['tp-hide_bottombar_forum'] = 'Hide bottom panel when in forum?';
-
-$txt['tp-vertical'] = 'Display the blocks vertically(default)';
-$txt['tp-horisontal'] = 'Display the blocks horizontally';
-$txt['tp-horisontal2cols'] = 'Display the blocks in 2 columns';
-$txt['tp-horisontal3cols'] = 'Display the blocks in 3 columns';
-$txt['tp-horisontal4cols'] = 'Display the blocks in 4 columns';
-$txt['tp-grid'] = 'Display the blocks according to a grid';
-$txt['tp-blockwidth'] = '<b>Force</b> this width on each block (use 00px or 00%)';
-$txt['tp-blockheight'] = '<b>Force</b> this height on each block(use 00px or 00%)';
+$txt['tp-vertical'] = 'Wy¶wietl bloki pionowo(standardowo)';
+$txt['tp-horisontal'] = 'Wy¶wietl bloki poziomo';
+$txt['tp-horisontal2cols'] = 'Wy¶wietl bloki w 2 kolumnach';
+$txt['tp-horisontal3cols'] = 'Wy¶wietl bloki w 3 kolumnach';
+$txt['tp-horisontal4cols'] = 'Wy¶wietl bloki w 4 kolumnach';
+$txt['tp-grid'] = 'Wy¶wietl bloki w zale¿no¶ci od siatki';
+$txt['tp-blockwidth'] = '<b>Wymu¶</b> t± szeroko¶æ dla ka¿dego bloku(u¿yj 00px lub 00%)';
+$txt['tp-blockheight'] = '<b>Wymu¶</b> t± wysoko¶æ dla ka¿dego bloku(u¿yj 00px lub 00%)';
 $txt['tp-panelstylehelp'] = 'Default style for the blocks in the panel:';
 $txt['tp-panelstylehelp2'] = '(This setting determines the default style used for displaying blocks in this panel. If a specific style is chosen for a block in the block settings, the block style will take priority over any panel style chosen here.)';
 
-/
 // TP Settings
 $txt['tp-generalsettings'] = 'Ustawienia g³ówne';
 $txt['tp-hidecollapse'] = 'Zezwól na zwijanie paneli?';
-$txt['tp-hideediticon'] = 'Hide the block edit link?';
+$txt['tp-hideediticon'] = 'Ukryj link edycji bloku?';
 
 $txt['tp-maxrating'] = 'Maksymalna ocena:';
 $txt['tp-stars'] = 'Wy¶wietliæ gwiazki zamiast liczb?';
@@ -655,7 +616,7 @@ $txt['tp-permissions'] = 'Zezwolenia';
 $txt['tp-permdesc1'] = 'Zezwolenia dla funkcji TP. Zauwa¿ ¿e niektóre fukcje s± dla administracji natomiast inne dla u¿ytkowników.';
 
 $txt['tp-selectedforum'] = 'Tylko wybrane w±tki';
-$txt['tp-selectbothforum'] = 'Wybrane w±ti + artyku³y';
+$txt['tp-selectbothforum'] = 'Wybrane w±tki + artyku³y';
 
 $txt['tp-frontpagetitle'] = 'U¿yj w³asnego tytu³u dla strony g³ównej: ';
 $txt['tp-frontpagetitle2'] = ' (zostaw pole tekstowe puste aby nie korzystaæ z w³asnego tyu³u)';
