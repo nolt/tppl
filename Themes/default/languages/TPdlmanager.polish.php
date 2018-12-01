@@ -36,7 +36,7 @@ $txt['tp-dltabs1'] = 'Opcje';
 $txt['tp-dltabs2'] = 'Dodaj kategoriê';
 $txt['tp-dltabs3'] = 'Prze¶lij';
 $txt['tp-dltabs4'] = 'Admin';
-$txt['tp-dluploadfailure']='Wysy³anie nie zakoñczone. Powodem mo¿e byæ zbyt d³ugie wysy³anie lub wielko¶æ pliku jaka mo¿e byæ przes³ana na serwer.<br /><br />Skonsultuj siê z Administratorem swojego serwera w celu otrzymania wiêcej informacji. ';
+$txt['tp-dluploadfailure']='Wysy³anie nie zakoñczone. Powodem mo¿e byæ zbyt d³ugie wysy³anie lub wielko¶æ pliku jaka mo¿e byæ przes³ana na serwer.<br><br>Skonsultuj siê z Administratorem swojego serwera w celu otrzymania wiêcej informacji. ';
 $txt['tp-dluploadnotallowed'] = 'Przepraszamy, wysy³anie plików jest aktualnie zabronione.';
 $txt['tp-downloads'] = 'Download';
 $txt['tp-id'] = 'ID';
@@ -80,7 +80,7 @@ $txt['tp-search'] = 'Szukaj';
 $txt['tp-stats'] = 'Statystyki';
 $txt['tp-warnsubmission'] = ' Wszystkie pliki wymagaj± zatwierdzenia przez Administratora.';
 $txt['tp-nosubmissions'] = 'Obecnie nie ma ¿adnych wniosków oczekuj±cych na zatwierdzenie.';
-$txt['tp-searcharea-descr'] = 'Not Defined Yet 2';
+$txt['tp-searcharea-descr'] = 'Opis wyszukiwania';
 $txt['tp-searcharea-name'] = 'Przeszukaj tytu³y';
 $txt['tp-dosubmit'] = 'Zapisz';
 $txt['tp-dlvisualoptions'] = 'Opcje wizualne:';
@@ -132,8 +132,8 @@ $txt['tp-noneicon'] = 'Brak ikony';
 $txt['tp-onlyftpstrays'] = 'Pokazuje tylko pliki niemaj±ce wpisu w dl_manager:';
 $txt['tp-rightbar'] = 'Poka¿ prawy panel';
 $txt['tp-sayno'] = 'Nie';
-$txt['tp-uploadnewfileexisting'] = 'Prze¶lij nowy plik <br /><span class="smalltext"> (obecny zostanie zast±piony!)</span>';
-$txt['tp-uploadnewpic'] = 'Prze¶lij nowy obrazek<br /><span class="smalltext">(obecny zostanie zast±piony!)</span>';
+$txt['tp-uploadnewfileexisting'] = 'Prze¶lij nowy plik <br><span class="smalltext"> (obecny zostanie zast±piony!)</span>';
+$txt['tp-uploadnewpic'] = 'Prze¶lij nowy obrazek<br><span class="smalltext">(obecny zostanie zast±piony!)</span>';
 $txt['tp-uploadnewpicexisting']='Obecny zrzut ekranu/obrazek';
 $txt['tp-shortname'] = 'Tytu³ zapytania:';
 
@@ -152,7 +152,7 @@ $txt['tp-dlusescreenshot'] = 'U¿yæ obrazka zamiast ikony?';
 $txt['tp-dlscreenshotsize1'] = 'Powiêksz rozmiar obrazka miniatury:';
 $txt['tp-dlscreenshotsize2'] = 'Powiêksz rozmiary obrazka g³ównego:';
 $txt['tp-dlperms'] = 'Zezwolenia';
-$txt['tp-dlperms2'] = 'Wybierz i ustaw zezwolenia dla wszystkich grup u¿ytkowników. "Zarz±dzaj plikami" daje prawa administratora dla wszystkich plików, 
+$txt['tp-dlperms2'] = 'Wybierz i ustaw zezwolenia dla wszystkich grup u¿ytkowników. "Zarz±dzaj plikami" daje prawa administratora dla wszystkich plików,
 "Wy¶lij plik" daje prawa na wysy³anie plików, "utówrz w±tek" daje prawa do utowrzenia w±tku dla pliku który zosta³ wys³any.';
 $txt['tp-dlcreatetopicboards'] = 'Forum jako Boards to use for support topics';
 $txt['tp-mostpopweek'] = 'Najczê¶ciej pobierane w tym tygodniu';
