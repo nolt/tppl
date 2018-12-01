@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.1
+ * @version 1.6.1
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,13 +11,14 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2015 - The TinyPortal Team
+ * Copyright (C) 2018 - The TinyPortal Team
  *
+ * @polskie tłumaczenie Nolt
  */
 
 $txt['tp-allshoutsbyip'] = 'Wszystkie shout\'y z tego IP';
 $txt['tp-allshoutsbymember'] = 'Wszystkie shout\'y tego użytkownika';
-$txt['tp-tabs10'] = 'Shoutbox';
+$txt['tp-tabs10']='Shoutbox';
 $txt['tp-allowguestshout'] = 'Zezwól gościom na korzystanie z shoutbox\'a?';
 $txt['tp-shoutboxheight'] = 'Wysokość shoutbox w pikselach';
 $txt['tp-shoutboxitems'] = 'Edytuj/Usuń ostatnie shout\'y:';
@@ -30,17 +31,17 @@ $txt['tp-shoutboxheader'] = 'Zarządzanie Shoutbox\'em';
 $txt['tp-shoutboxhelp'] = 'Pomoc';
 $txt['tp-shoutboxdescription'] = '';
 $txt['tp-shoutboxduration'] = 'Szybkość przewijania (1 - 5)';
-$txt['tp-shout-autorefresh'] = 'Auto odświeżanie (w sekundach)<br /><h6 style="color: #CC0000;">Ustawienie niskiej wartości może zjadać zasoby serwera</h6> (0 = wyłączone)';
+$txt['tp-shout-autorefresh'] = 'Auto odświeżanie (w sekundach)<br><h6 style="color: #CC0000;">Ustawienie niskiej wartości może zjadać zasoby serwera</h6> (0 = wyłączone)';
 
 $txt['permissiongroup_tpshout'] = 'TP Shoutbox';
 $txt['permissiongroup_tpshoutbox'] = 'TP Shoutbox';
 $txt['permissiongroup_simple_tpshout'] = 'Zarządzaj Shoutbox\'em';
 $txt['permissionname_tp_can_admin_shout'] = 'Zarządzaj Shoutbox\'em';
 $txt['permissionhelp_tp_can_admin_shout'] = 'Zezwala Ci na zarządzanie shout\'ami.';
+$txt['permissionname_tp_can_shout'] = 'Can Post Shouts';
+$txt['permissionhelp_tp_can_shout'] = 'Allows users to post in the shoutbox.';
 $txt['cannot_tp_can_admin_shout'] = 'Przepraszamy, nie możesz zarządzać shout\'ami.';
 $txt['tp-showlatest'] = 'Pokaż ostatnich 50';
-$txt['tp-mootools'] = 'Yes, use Mootools version';
-$txt['tp-marquee'] = 'Yes, use marquee(from TP v0.9)';
 $txt['by'] = 'przez';
 
 $txt['tp-allshouts'] = 'Pokaż wszystkie shouty';
@@ -49,5 +50,16 @@ $txt['tp-shout-refresh'] = 'Odświeżanie';
 $txt['tp-shout-allow-links'] = 'Zezwól na linki w wiadomościach?';
 $txt['shoutbox_layout'] = 'Wygląd shoutboksa';
 $txt['shout_submit_returnkey'] = 'Klawisz Enter wysyła wiadomość?';
+$txt['tp-yes-ctrl'] = 'Tak z ctrl/cmd';
+$txt['tpsummary_noshout'] = 'Nie znaleziono wiadomości';
 
+$txt['tp-shoutboxmaxlength'] = 'Maksymalna długość znaków w wiadomości';
+$txt['tp-shoutboxtimeformat'] = 'Format czasu';
+$txt['tp-shoutboxcolors'] = 'Ustawienia kolorów shoutboksa<br><span class="smalltext">(Użyj kodów hex: przykładowy kod hex koloru to #123456. Aby skorzystać z domyślnych klorów stylu, zostaw te pola puste.)</span>';
+$txt['tp-shoutbox_use_groupcolor'] = 'Użyj koloru grup użytkowników dla nazw użytkowników';
+$txt['tp-use_groupcolordesc'] = '(Ustawienia główne TP mają wyższy priorytet nad ustawieniami shoutboksa.)';
+$txt['tp-shoutboxtextcolor'] = 'Domyślny kolor tekstu';
+$txt['tp-shoutboxtimecolor'] = 'Kolor tekstu czasu';
+$txt['tp-shoutboxlinecolor1'] = 'Szablon 3 i 4: kolor tła linii nieparzystych';
+$txt['tp-shoutboxlinecolor2'] = 'Szablon 3 i 4: kolor tła linii parzystych';
 ?>

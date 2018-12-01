@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.1
+ * @version 1.6.1
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,14 +11,14 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2015 - The TinyPortal Team
+ * Copyright (C) 2018 - The TinyPortal Team
  *
+ * @polskie t³umaczenie Nolt
  */
 
 global $txt, $context, $scripturl;
 
 // Navigation... //
-// Rev 89
 $txt['tp-admin9'] = 'Mened¿er Plików';
 $txt['tp-admin8'] = 'Artyku³y i kategorie';
 $txt['tp-adminpanels'] = 'Panele i Bloki';
@@ -30,14 +30,12 @@ $txt['tp-tpnews'] = 'Nowo¶ci';
 $txt['tp-adminmodules1'] = 'Modu³y i Tagi';
 
 // General Miscellious... //
-// Rev 89
 $txt['tp-edit'] = 'Edytuj';
 $txt['tp-send'] = 'Zapisz';
 $txt['tp-tpadmin'] = 'TP Admin';
 $txt['tp-profilesection'] = 'TinyPortal';
 
 // Articles... //
-// Rev 89
 $txt['tp_rate'] = 'Oceñ!';
 $txt['tp-arenew'] = 's± nowe';
 $txt['tp-by'] = 'przez';
@@ -57,7 +55,6 @@ $txt['tp-readmore'] = 'Czytaj wiêcej...';
 $txt['tp-submit'] = 'Wy¶lij';
 $txt['tp-views'] = 'Wy¶wietleñ';
 $txt['tp-subject'] = 'Temat';
-$txt['tp-visual_verification_description'] = 'Not Defined Yet';
 $txt['tp-articlessubmitted'] = 'artyku³y';
 $txt['tp-articlenotexist'] = 'Artyku³ jest nieaktywny, nie zosta³ zatwierdzony lub po prostu nie istnieje.';
 $txt['tp-categorynotexist'] = 'Nie znaleziono artyku³ów w tej kategorii.';
@@ -79,6 +76,8 @@ $txt['tp-noname'] = '-bez nazwy-';
 $txt['tp-submitarticlebbc']='Dodaj artyku³ BBC';
 $txt['permissionname_tp_articles'] = 'Zarz±dzaj artyku³ami';
 $txt['permissionhelp_tp_articles'] = 'Pozwala Ci na zarz±dzanie artyku³ami, kategoriami artyku³ów oraz list± kategorii.';
+$txt['permissionname_tp_artcomment'] = 'Mo¿e komentowaæ w artyku³ach';
+$txt['permissionhelp_tp_artcomment'] = 'Zezwól u¿ytkownikom na zarz±dzanie, kto mo¿e komentowaæ w artyku³ach.';
 $txt['permissiongroup_tinyportal_submit'] = 'Artyku³y TinyPortal';
 $txt['permissionname_tp_submithtml'] = 'Mo¿e dodaæ artyku³ HTML';
 $txt['permissionhelp_tp_submithtml'] = 'Pozwala Ci na pisanie oraz dodawanie artyku³ów typu HTML.';
@@ -102,9 +101,7 @@ $txt['tp-acronymhours'] = 'h ';
 $txt['tp-acronymminutes'] = 'm ';
 $txt['tp-incategory'] = ' w ';
 
-
 // Blocks... //
-// Rev 89
 $txt['tp-guest']='go¶æ';
 $txt['tp-guests'] = 'Go¶ci';
 $txt['tp-itemviews'] = 'Wy¶wietleñ';
@@ -132,7 +129,6 @@ $txt['edit_description'] = 'Edytuj zawarto¶æ bloków';
 $txt['block-upshrink_description'] = 'Zwiñ lub rozwiñ blok';
 
 // Panels... //
-// Rev 89
 $txt['left-tp-upshrink_description'] = 'Zmniejsz lub powiêksz lewy panel';
 $txt['right-tp-upshrink_description'] = 'Zmniejsz lub powiêksz prawy panel';
 $txt['upper-tp-upshrink_description'] = 'Zmniejsz lub powiêksz wy¿szy panel';
@@ -143,18 +139,21 @@ $txt['front-tp-upshrink_description'] = 'Zmniejsz lub powiêksz panel strony g³ów
 $txt['center-tp-upshrink_description'] = 'Zmniejsz lub powiêksz centralny panel';
 
 // Search... //
-// Rev 89
-$txt['tp-searcharticles'] = 'Przeszukaj portal'; 
+$txt['tp-searcharticles'] = 'Przeszukaj portal';
 $txt['tp-searcharticles2'] = 'Szukaj w artyku³ach';
 $txt['tp-searchdownloads'] = 'Szukaj w Mened¿erze plików';
 $txt['tp-nosearchentered'] = 'Brak wyników!';
 $txt['tp-search'] = 'Szukaj';
 $txt['tp-searchintitle'] = 'Szukaj w tytu³ach';
 $txt['tp-searchinbody'] = 'Szukaj w tek¶cie artyku³ów';
-$txt['tp-searcharticleshelp'] = 'Szukaj w dosêpnych artyku³ach lub u¿yj kluczowych s³ów powi±zanych z artyku³em lub kategori±.';
+$txt['tp-searcharticleshelp'] = 'Szukaj w dostêpnych artyku³ach.';
+$txt['tp-searcharticleshelp2'] = '<span class="smalltext"><b>Mo¿esz u¿yæ nastêpuj±cych operatorów:</b><br>
+<B>+</B>&nbsp;&nbsp;zawiera, musi zawieraæ s³owo.<br>
+<B>-</B>&nbsp;&nbsp;wyklucza, nie musi zawieraæ s³owa.<br>
+<B>*</B>&nbsp;&nbsp;na koñcu s³owa.<br><br>
+Przyk³ad: <i>+Morrissey +album +live  <b>lub</B> +Morrissey +album -live <b>lub</B> morris*</i></span>';
 
 // Profile... //
-// Rev 89
 $txt['articlesprofile'] = 'Artyku³y';
 $txt['downloadprofile'] = 'Przes³ane pliki';
 $txt['galleryprofile'] = 'Pliki galerii';
@@ -178,15 +177,14 @@ $txt['tp-prof_offarticles'] = 'Nie aktywne artyku³y:';
 $txt['tp-prof_offarticles2'] = 'Wszystkie artyku³y zaznaczone jako aktywne.';
 $txt['tp-prof_waitapproval1'] = 'Masz ';
 $txt['tp-prof_waitapproval2'] = 'artyku³y oczekuj±ce na zatwierdzenie.';
+$txt['tp-more']='Wiêcej ';
 
 // News... //
-// Rev 89
 $txt['permissionname_tp_news'] = 'Mo¿e przegl±daæ nowo¶ci TP';
 $txt['permissionhelp_tp_news'] = 'Pozwala Ci na czytanie nowo¶ci, instalacjê aktualizacji etc.';
 $txt['cannot_tp_news'] = 'Przepraszamy, nie mo¿esz pobraæ aktualno¶ci.';
 
 // TP Settings... //
-// Rev 89
 $txt['permissiongroup_tinyportal'] = 'TinyPortal';
 $txt['permissiongroup_simple_tinyportal'] = 'Zarz±dzaj TinyPortal';
 $txt['permissionname_tp_settings'] = 'Zarz±dzaj ustawieniami';
@@ -195,7 +193,7 @@ $txt['cannot_tp_settings'] = 'Przepraszamy, nie mo¿esz zarz±dzaæ ustawieniami.';
 $txt['tp_maintenace'] = 'Tryb obs³ugi';
 
 // File Manager... //
-// Rev 89
+$txt['tp-dlmanageroff'] = 'Mened¿er plików jest nieaktywny..';
 $txt['tp-dluploaded'] = 'przes³ane pliki';
 $txt['tp-uploadedby'] = 'Przes³any przez ';
 $txt['permissiongroup_tinyportal_dl'] = 'Medned¿er plików TP';
@@ -218,18 +216,19 @@ $txt['permissionhelp_tp_dlcreatetopic'] = 'Pozwala Ci na stworzenie i zlinkowani
 $txt['cannot_tp_dlcreatetopic'] = 'Przepraszamy, nie mo¿esz utworzyæ w±tku ze wsparciem.';
 
 // Shoutbox... //
-// Rev 89
 $txt['tp-shouts'] = 'Shouts:';
 $txt['shout!'] = 'Shout!';
 $txt['tp-shout'] = 'Shout';
+$txt['permissionname_tp_can_admin_shout'] = 'Zarz±dzaj TPshout';
+$txt['permissionhelp_tp_can_admin_shout'] = 'Zezwól u¿ytkownikom na zarz±dzanie shouts.';
+$txt['permissionname_tp_can_shout'] = 'Mo¿e dodawaæ shouts';
+$txt['permissionhelp_tp_can_shout'] = 'Zezwól u¿ytkownikom na dodawanie wiadomo¶ci w shoutbox.';
 
 // Menus... //
-// Rev 89
 $txt['tp-miscblocks'] = 'Menu';
 
 $txt['tp-quicklist'] = 'Szybka lista moich obrazków';
 $txt['tp-quicklist2'] = 'Poni¿sze obrazki to miniatury oryginalnych. Klikniêcie w obrazek spowoduje dodanie go do edytora. B±d¼ pewny i¿ klikn±³e¶ w ikonê edytora aby go aktywowaæ przed dodaniem jakiegokolwiek obrazka.';
-$txt['tp-assigntags'] = 'Przypisz globalne tagi:';
 $txt['tp-uploadfile'] = 'Prze¶lij nowy obrazek do szybkiej listy: ';
 $txt['tp-tagitem'] = 'Pobierz plik(i)';
 $txt['tp-tagcategory'] = 'Pobierz plik(i)';
@@ -258,7 +257,6 @@ $txt['tp-indownloads'] = ' [Downloads]';
 $txt['tp-fullscreenshot'] = 'Poka¿ pe³ny obrazek';
 
 $txt['tp-from'] = 'Z ';
-$txt['tp-newtag'] = 'Stwórz nowy tag:';
 
 $txt['tp-rates'] = 'oceny';
 $txt['tp-haverated'] = 'Ju¿ ocenia³e¶.';
@@ -280,6 +278,7 @@ $txt['tp-toggle'] = 'W³±cz panel';
 $txt['tp-addarticle']='Dodaj';
 $txt['tp-none'] = '-brak-';
 $txt['tp-notallowed'] = 'Przepraszamy, nie mo¿esz zobaczyæ tego artyku³u.';
+$txt['tp-noadmin'] = 'Przepraszamy, nie masz uprawnieñ na dostêp do stron administracyjnych TinyPortal.';
 $txt['tp-error'] = 'TP error';
 
 $txt['tp-publish'] = 'Publikuj na stronie g³ównej';
@@ -301,14 +300,28 @@ $txt['tp_modreports'] = 'Raporty moderatorów:';
 $txt['tp-blockoverview'] = 'Wy¶wietlanie bloków';
 $txt['tp-ungroupedmembers']='U¿ytkownicy bez grupy';
 $txt['tp-noarticlesfound'] = 'Przepraszamy, nie znaleziono artyku³u.';
-$txt['whoall_forum'] = 'Przegl±da indeks forum <a href="' . $scripturl . '">' . $context['forum_name'] . '</a>.';
+$txt['whoall_forum'] = 'Przegl±da index forum <a href="' . $scripturl . '">' . (!empty($context['forum_name']) ? $context['forum_name'] : '*') . '</a>.';
 $txt['tp-showlatest'] = 'Poka¿ 50 ostatnich';
 
 $txt['tp-expired-start'] = 'Artyku³ nie jest obecnie opublikowany!';
 $txt['tp-expired-start2'] = ' dopóki ';
 
 $txt['tp-nomodule'] = 'Brak wy¶cia z modu³u.';
+
 // Permissions
 $txt['permissiongroup_tp'] = 'TinyPortal';
 $txt['permissiongroup_simple_tp'] = 'Zarz±dzaj TinyPortal';
+
+$txt['tp-who-forum-index']      = 'Przegl±da indeks Forum';
+$txt['tp-who-articles']         = 'Przegl±da artyku³y';
+$txt['tp-who-article']          = 'Przegl±da artyku³ &quot;<a href="%3$s?page=%2$s">%1$s</a>&quot;.';
+$txt['tp-who-categories']       = 'Przegl±da stronê z katagoriami artyku³ów';
+$txt['tp-who-category']         = 'Przegl±da stronê z kategori± &quot;<a href="%3$s?cat=%2$s">%1$s</a>&quot;.';
+$txt['tp-who-article-search']   = 'Wyszukuje artyku³y.';
+$txt['tp-who-downloads']        = 'Przegl±da pliki';
+
+// TPListimages //
+$txt['permissionname_tp_can_list_images'] = 'Zarz±dzaj obrazkami listy TP';
+$txt['permissionhelp_tp_can_list_images'] = 'Pozwala u¿ytkownikom na usuwanie wys³anych obrazków z katalogu obrazów TinyPortal.';
+$txt['cannot_tp_can_list_images'] = 'Przepraszamy, nie masz uprawnieñ na zarz±dzanie obrazkami w artyku³ach.';
 ?>
