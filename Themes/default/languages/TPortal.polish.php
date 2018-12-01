@@ -139,7 +139,7 @@ $txt['front-tp-upshrink_description'] = 'Zmniejsz lub powiêksz panel strony g³ów
 $txt['center-tp-upshrink_description'] = 'Zmniejsz lub powiêksz centralny panel';
 
 // Search... //
-$txt['tp-searcharticles'] = 'Przeszukaj portal'; 
+$txt['tp-searcharticles'] = 'Przeszukaj portal';
 $txt['tp-searcharticles2'] = 'Szukaj w artyku³ach';
 $txt['tp-searchdownloads'] = 'Szukaj w Mened¿erze plików';
 $txt['tp-nosearchentered'] = 'Brak wyników!';
@@ -312,16 +312,16 @@ $txt['tp-nomodule'] = 'Brak wy¶cia z modu³u.';
 $txt['permissiongroup_tp'] = 'TinyPortal';
 $txt['permissiongroup_simple_tp'] = 'Zarz±dzaj TinyPortal';
 
-$txt['tp-who-forum-index']      = 'Viewing the Forum Index';
-$txt['tp-who-articles']         = 'Viewing Articles';
-$txt['tp-who-article']          = 'Viewing the Article &quot;<a href="%3$s?page=%2$s">%1$s</a>&quot;.';
-$txt['tp-who-categories']       = 'Viewing an article category page';
-$txt['tp-who-category']         = 'Viewing the category page &quot;<a href="%3$s?cat=%2$s">%1$s</a>&quot;.';
-$txt['tp-who-article-search']   = 'Searching Articles.';
-$txt['tp-who-downloads']        = 'Viewing Downloads';
+$txt['tp-who-forum-index']      = 'Przegl±da indeks Forum';
+$txt['tp-who-articles']         = 'Przegl±da artyku³y';
+$txt['tp-who-article']          = 'Przegl±da artyku³ &quot;<a href="%3$s?page=%2$s">%1$s</a>&quot;.';
+$txt['tp-who-categories']       = 'Przegl±da stronê z katagoriami artyku³ów';
+$txt['tp-who-category']         = 'Przegl±da stronê z kategori± &quot;<a href="%3$s?cat=%2$s">%1$s</a>&quot;.';
+$txt['tp-who-article-search']   = 'Wyszukuje artyku³y.';
+$txt['tp-who-downloads']        = 'Przegl±da pliki';
 
 // TPListimages //
-$txt['permissionname_tp_can_list_images'] = 'Manage TPlistimages';
-$txt['permissionhelp_tp_can_list_images'] = 'Allows users to remove uploaded images from the Tiny Portal Image Directory.';
-$txt['cannot_tp_can_list_images'] = 'Sorry, you aren\'t allowed to manage article images.';
+$txt['permissionname_tp_can_list_images'] = 'Zarz±dzaj obrazkami listy TP';
+$txt['permissionhelp_tp_can_list_images'] = 'Pozwala u¿ytkownikom na usuwanie wys³anych obrazków z katalogu obrazów TinyPortal.';
+$txt['cannot_tp_can_list_images'] = 'Przepraszamy, nie masz uprawnieñ na zarz±dzanie obrazkami w artyku³ach.';
 ?>
