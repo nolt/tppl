@@ -50,16 +50,16 @@ $txt['tp-shout-refresh'] = 'Od¶wie¿anie';
 $txt['tp-shout-allow-links'] = 'Zezwól na linki w wiadomo¶ciach?';
 $txt['shoutbox_layout'] = 'Wygl±d shoutboksa';
 $txt['shout_submit_returnkey'] = 'Klawisz Enter wysy³a wiadomo¶æ?';
-$txt['tp-yes-ctrl'] = 'Yes with ctrl/cmd';
-$txt['tpsummary_noshout'] = 'No shout messages found';
+$txt['tp-yes-ctrl'] = 'Tak z ctrl/cmd';
+$txt['tpsummary_noshout'] = 'Nie znaleziono wiadomo¶ci';
 
-$txt['tp-shoutboxmaxlength'] = 'Maximum shout length in characters';
-$txt['tp-shoutboxtimeformat'] = 'Time format';
-$txt['tp-shoutboxcolors'] = 'Shoutbox color settings<br><span class="smalltext">(Use hex color codes: an example of a Hex color representation is #123456. To use the default theme colors, leave these fields blank.)</span>';
-$txt['tp-shoutbox_use_groupcolor'] = 'Use membergroup color for user names';
-$txt['tp-use_groupcolordesc'] = '(The general TP setting takes preference over the shoutbox setting.)';
-$txt['tp-shoutboxtextcolor'] = 'Default shout text color';
-$txt['tp-shoutboxtimecolor'] = 'Time text color';
-$txt['tp-shoutboxlinecolor1'] = 'Layouts 3 and 4: background color odd lines';
-$txt['tp-shoutboxlinecolor2'] = 'Layouts 3 and 4: background color even lines';
+$txt['tp-shoutboxmaxlength'] = 'Maksymalna d³ugo¶æ znaków w wiadomo¶ci';
+$txt['tp-shoutboxtimeformat'] = 'Format czasu';
+$txt['tp-shoutboxcolors'] = 'Ustawienia kolorów shoutboksa<br><span class="smalltext">(U¿yj kodów hex: przyk³adowy kod hex koloru to #123456. Aby skorzystaæ z domy¶lnych klorów stylu, zostaw te pola puste.)</span>';
+$txt['tp-shoutbox_use_groupcolor'] = 'U¿yj koloru grup u¿ytkowników dla nazw u¿ytkowników';
+$txt['tp-use_groupcolordesc'] = '(Ustawienia g³ówne TP maj± wy¿szy priorytet nad ustawieniami shoutboksa.)';
+$txt['tp-shoutboxtextcolor'] = 'Domy¶lny kolor tekstu';
+$txt['tp-shoutboxtimecolor'] = 'Kolor tekstu czasu';
+$txt['tp-shoutboxlinecolor1'] = 'Szablon 3 i 4: kolor t³a linii nieparzystych';
+$txt['tp-shoutboxlinecolor2'] = 'Szablon 3 i 4: kolor t³a linii parzystych';
 ?>
