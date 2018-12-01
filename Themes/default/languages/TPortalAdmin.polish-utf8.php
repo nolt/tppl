@@ -258,14 +258,14 @@ $txt['tp-editcategory'] = 'Edytuj';
 $txt['tp-showsociallinks'] = 'Pokaż przyciski portali społecznościowych';
 $txt['tp-noicon'] = '- Bez ikony -';
 $txt['tp-editorheight'] = 'Wysokość edytora WYSIWYG?';
-$txt['tp-hidearticle-facebook'] = 'Hide Facebook button?';
-$txt['tp-hidearticle-twitter'] = 'Hide Twitter button?';
-$txt['tp-hidearticle-google'] = 'Hide Google button?';
-$txt['tp-hidearticle-reddit'] = 'Hide Reddit button?';
-$txt['tp-hidearticle-digg'] = 'Hide Digg button?';
-$txt['tp-hidearticle-delicious'] = 'Hide Delicious button?';
-$txt['tp-hidearticle-stumbleupon'] = 'Hide Stumbleupon button?';
-$txt['tp-hidearticle-link'] = 'Ukryj link do edycji artykułów pod artykułami?';
+$txt['tp-hidearticle-facebook'] = 'Ukryć przycisk Facebook?';
+$txt['tp-hidearticle-twitter'] = 'Ukryć przycisk FTwitter';
+$txt['tp-hidearticle-google'] = 'Ukryć przycisk FGoogle?';
+$txt['tp-hidearticle-reddit'] = 'Ukryć przycisk FReddit?';
+$txt['tp-hidearticle-digg'] = 'Ukryć przycisk FDigg?';
+$txt['tp-hidearticle-delicious'] = 'Ukryć przycisk FDelicious';
+$txt['tp-hidearticle-stumbleupon'] = 'Ukryć przycisk FStumbleupon?';
+$txt['tp-hidearticle-link'] = 'Ukryć link do edycji artykułów pod artykułami?';
 
 // Blocks admin...
 $txt['tp-addcenterblock']='Dodaj wyższy blok';
@@ -358,12 +358,12 @@ $txt['tp-gobackurl'] = 'Wróć do strony z położeniem bloków';
 $txt['tp-gobackallblocks'] = 'Wróć do wszystkich bloków';
 $txt['tp-blocknotice'] = 'Uwaga! Typ bloku został zmieniony.<br>Prosimy o zapisanie najpierw bloku aby zobaczyć jego nowe funkcje!';
 $txt['tp-allboards'] = 'Pokaż we wszystkich forach';
-$txt['tp-allboards'] = 'Display on all boards';
-$txt['tp-blocksusepaneltyle'] = 'Use Panel style';
-$txt['tp-blockstylehelp'] = 'Choose style for the block';
-$txt['tp-blockstylehelp2'] = '(This setting determines the style used for displaying the block. If a specific style is chosen for a block, the block style will take priority over the panel style.)';
+$txt['tp-allboards'] = 'Wyświetl we wszystkich działach';
+$txt['tp-blocksusepaneltyle'] = 'Użyj stylu panela';
+$txt['tp-blockstylehelp'] = 'Wybierz styl bloku';
+$txt['tp-blockstylehelp2'] = '(Ustawienie określa style używane do wyświetlania bloków. Jeżeli zostanie wybrany konkretny styl dla bloku, będzie miał on wyższy priorytet niż styl panelu.)';
 
-$txt['tp-adminshowblocks'] = 'Let admin show all blocks?';
+$txt['tp-adminshowblocks'] = 'Pozwól adminom wyświetlać wszystkie bloki?';
 
 // Block Types...
 $txt['tp-userbox1']='Awatar (jeśli jest)';
@@ -428,8 +428,8 @@ $txt['tp-horisontal4cols'] = 'Wyświetl bloki w 4 kolumnach';
 $txt['tp-grid'] = 'Wyświetl bloki w zależności od siatki';
 $txt['tp-blockwidth'] = '<b>Wymuś</b> tą szerokość dla każdego bloku(użyj 00px lub 00%)';
 $txt['tp-blockheight'] = '<b>Wymuś</b> tą wysokość dla każdego bloku(użyj 00px lub 00%)';
-$txt['tp-panelstylehelp'] = 'Default style for the blocks in the panel:';
-$txt['tp-panelstylehelp2'] = '(This setting determines the default style used for displaying blocks in this panel. If a specific style is chosen for a block in the block settings, the block style will take priority over any panel style chosen here.)';
+$txt['tp-panelstylehelp'] = 'Domyślny styl dla bloków w panelu:';
+$txt['tp-panelstylehelp2'] = '(Ustawienie określa domyślny styl używany do wyświetlania bloków w tym panelu. Jeżeli zostanie wybrany styl dla bloku w ustawieniach bloków, będzie miał on wyższy priorytet niż styl wybrany tutaj dla jakiegokolwiek panelu.)';
 
 // TP Settings
 $txt['tp-generalsettings'] = 'Ustawienia główne';
@@ -576,7 +576,7 @@ $txt['tp-helppanels'] = 'Bloki są usytuowane w panelach, każdy panel posiada w
 $txt['tp-helpartsettings'] = 'Wybrane ustawienia dla artykułów.';
 $txt['tp-helpfrontpage'] = 'Zarządzanie ustawieniami strony głównej.';
 $txt['tp-helparticles'] = 'Są to kategorie artykułów, zawierają liczbę artykułów w poszczególnych kategoriach. Wylistowana jest także sub-kategoria(kliknij aby pokazać więcej).';
-$txt['tp-helpmenuitems'] = 'Here you can create and change the menu items for the menu. The menu item types available are: Category, Article, Link, Header, Spacer or Menu button (only in the <i>Internal</i> menu)<br>';
+$txt['tp-helpmenuitems'] = 'W tym miejscu możesz tworzyć lub zmieniać menu oraz jego elementy. Dostępne elementy menu to: Kategoria, Artykuł, Link, Nagłówek, Odstęp lub przycisk menu (tylko w <i>wewnętrznym</i> menu)<br>';
 
 $txt['tp-assignnewauthor'] = 'ID autora(zmień aby przypisać do innego)';
 $txt['tp-uncategorised'] = 'Bez kategorii';
@@ -658,13 +658,13 @@ $txt['tp-sticky5'] = 'Styl normalny + czerwone tło';
 $txt['tp-sticky6'] = 'Styl normalny + zielone tło';
 $txt['tp-unstickallshouts'] = 'Odkleić wszystkie przyklejone shouty?';
 
-$txt['tp-fulltextsearch']       = 'Enable TinyPortal Full Text search';
-$txt['tp-fulltextsearchdesc']   = 'Enable Full Text Search for the Article Search Functionality';
-$txt['tp-copyrightremoval'] = 'TinyPortal Copyright Removal';
-$txt['tp-copyrightremovaldesc'] = 'Enter your unique key to remove the TinyPortal Copyright Notice';
+$txt['tp-fulltextsearch']       = 'Włącz wyszukiwanie pełnego tekstu w TinyPortal';
+$txt['tp-fulltextsearchdesc']   = 'Włącz wyszukiwanie pełnego tekstu dla wyszukiwarki w artykułach';
+$txt['tp-copyrightremoval'] = 'Usunięcie TinyPortal Copyright';
+$txt['tp-copyrightremovaldesc'] = 'Wprowadź swój unikalny klucz aby usunąć informację w stopce TinyPortal o prawach autorskich';
 
 // new in 1.6.1
-$txt['tp-nosubmissions'] = 'Currently there are no submissions awaiting approval.';
-$txt['tp-use_groupcolor'] = 'Use membergroup color for user names throughout the forum';
-$txt['tp-use_groupcolordesc'] = '(The general TP setting takes preference over the shoutbox setting.)';
+$txt['tp-nosubmissions'] = 'Obecnie brak oczekujących wpisów na zatwierdzenie.';
+$txt['tp-use_groupcolor'] = 'Użyj kolorów grup dla nazw użytkowników z forum';
+$txt['tp-use_groupcolordesc'] = '(Główne ustawienia TP mają wyższy priorytet niż ustawienia w shoutboksie.)';
 ?>
