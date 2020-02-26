@@ -13,7 +13,7 @@
  *
  * Copyright (C) 2020 - The TinyPortal Team
  *
- * @polskitłmaczenie Nolt
+ * @polskie tłumaczenie Nolt
  */
 
 $txt['tp-allshoutsbyip'] = 'Wszystkie shout\'y z tego IP';
