@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.6.1
+ * @version 1.6.5
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,9 +11,9 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2018 - The TinyPortal Team
+ * Copyright (C) 2020 - The TinyPortal Team
  *
- * @polskie tłumaczenie Nolt
+ * @polskitłmaczenie Nolt
  */
 
 $txt['tp-allshoutsbyip'] = 'Wszystkie shout\'y z tego IP';

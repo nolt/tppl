@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.6.1
+ * @version 1.6.5
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,7 +11,7 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2018 - The TinyPortal Team
+ * Copyright (C) 2020 - The TinyPortal Team
  *
  * @polskie t³umaczenie Nolt
  */
@@ -19,8 +19,10 @@
 //  SVN Rev67
 global $scripturl;
 
+$txt['tp-authorby'] = 'przez';
 $txt['tp-authorID'] = 'Autor';
 $txt['tp-created'] = 'Stworzony';
+$txt['tp-downloadss2'] = 'Kliknij tutaj aby pobraæ plik';
 $txt['tp-dladmin'] = 'Administracja';
 $txt['tp-dldownloads'] = 'Download';
 $txt['tp-dlexterror'] = 'Obecnie mo¿esz wys³aæ tylko pliki z takim rozszerzeniem';
@@ -107,6 +109,7 @@ $txt['tp-dldelete'] = 'Skasowaæ?';
 $txt['tp-dledit'] = 'Edytuj/Skasuj';
 $txt['tp-dlfile'] = 'Nazwa pliku / Autor';
 $txt['tp-dlfilename']='Nazwa pliku:';
+$txt['tp-dl1file'] = 'plik';
 $txt['tp-dlfiles'] = 'pliki';
 $txt['tp-dlfilesize'] = 'Rozmiar pliku';
 $txt['tp-dlicon'] = 'Ikona';

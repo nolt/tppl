@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.6.1
+ * @version 1.6.5
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,7 +11,7 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2018 - The TinyPortal Team
+ * Copyright (C) 2020 - The TinyPortal Team
  *
  * @polskie tłumaczenie Nolt
  */
@@ -131,12 +131,12 @@ $txt['block-upshrink_description'] = 'Zwiń lub rozwiń blok';
 // Panels... //
 $txt['left-tp-upshrink_description'] = 'Zmniejsz lub powiększ lewy panel';
 $txt['right-tp-upshrink_description'] = 'Zmniejsz lub powiększ prawy panel';
-$txt['upper-tp-upshrink_description'] = 'Zmniejsz lub powiększ wyższy panel';
+$txt['top-tp-upshrink_description'] = 'Zmniejsz lub powiększ górny panel';
+$txt['center-tp-upshrink_description'] = 'Zmniejsz lub powiększ centralny panel';
+$txt['front-tp-upshrink_description'] = 'Zmniejsz lub powiększ panel strony głównej';
 $txt['lower-tp-upshrink_description'] = 'Zmniejsz lub powiększ niższy panel';
 $txt['bottom-tp-upshrink_description'] = 'Zmniejsz lub powiększ dolny panel';
-$txt['top-tp-upshrink_description'] = 'Zmniejsz lub powiększ górny panel';
-$txt['front-tp-upshrink_description'] = 'Zmniejsz lub powiększ panel strony głównej';
-$txt['center-tp-upshrink_description'] = 'Zmniejsz lub powiększ centralny panel';
+$txt['upper-tp-upshrink_description'] = 'Zmniejsz lub powiększ wyższy panel';
 
 // Search... //
 $txt['tp-searcharticles'] = 'Przeszukaj portal';
@@ -208,6 +208,7 @@ $txt['whoall_tpmod_dlcat'] = 'Przegląda kategorię plików.';
 $txt['whoall_tpmod_dlitem'] = 'Przegląda plik.';
 $txt['tp-dlsettings'] = 'Ustawienia';
 $txt['tp-downloads'] = 'Download';
+$txt['tp-downloadss1'] = 'Pobrane pliki';
 $txt['tp-dlhaverated'] = 'Oceniałeś ten plik.';
 
 $txt['permissionhelp_tp_dlupload'] = 'Pozwala Ci na wysłanie pliku do Menedżera plików';
@@ -324,4 +325,8 @@ $txt['tp-who-downloads']        = 'Przegląda pliki';
 $txt['permissionname_tp_can_list_images'] = 'Zarządzaj obrazkami listy TP';
 $txt['permissionhelp_tp_can_list_images'] = 'Pozwala użytkownikom na usuwanie wysłanych obrazków z katalogu obrazów TinyPortal.';
 $txt['cannot_tp_can_list_images'] = 'Przepraszamy, nie masz uprawnień na zarządzanie obrazkami w artykułach.';
+
+// SCE Editor //
+$txt['editor_tp_floatleft'] = 'Insert float left div';
+$txt['editor_tp_floatright'] = 'Insert float right div';
 ?>

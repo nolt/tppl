@@ -1,7 +1,7 @@
 <?php
 /**
  * @package TinyPortal
- * @version 1.6.1
+ * @version 1.6.5
  * @author IchBin - http://www.tinyportal.net
  * @founder Bloc
  * @license MPL 2.0
@@ -11,7 +11,7 @@
  * the License. You may obtain a copy of the License at
  * http://www.mozilla.org/MPL/
  *
- * Copyright (C) 2018 - The TinyPortal Team
+ * Copyright (C) 2020 - The TinyPortal Team
  *
  * @polskie t³umaczenie Nolt
  */
@@ -131,12 +131,12 @@ $txt['block-upshrink_description'] = 'Zwiñ lub rozwiñ blok';
 // Panels... //
 $txt['left-tp-upshrink_description'] = 'Zmniejsz lub powiêksz lewy panel';
 $txt['right-tp-upshrink_description'] = 'Zmniejsz lub powiêksz prawy panel';
-$txt['upper-tp-upshrink_description'] = 'Zmniejsz lub powiêksz wy¿szy panel';
+$txt['top-tp-upshrink_description'] = 'Zmniejsz lub powiêksz górny panel';
+$txt['center-tp-upshrink_description'] = 'Zmniejsz lub powiêksz centralny panel';
+$txt['front-tp-upshrink_description'] = 'Zmniejsz lub powiêksz panel strony g³ównej';
 $txt['lower-tp-upshrink_description'] = 'Zmniejsz lub powiêksz ni¿szy panel';
 $txt['bottom-tp-upshrink_description'] = 'Zmniejsz lub powiêksz dolny panel';
-$txt['top-tp-upshrink_description'] = 'Zmniejsz lub powiêksz górny panel';
-$txt['front-tp-upshrink_description'] = 'Zmniejsz lub powiêksz panel strony g³ównej';
-$txt['center-tp-upshrink_description'] = 'Zmniejsz lub powiêksz centralny panel';
+$txt['upper-tp-upshrink_description'] = 'Zmniejsz lub powiêksz wy¿szy panel';
 
 // Search... //
 $txt['tp-searcharticles'] = 'Przeszukaj portal';
@@ -208,6 +208,7 @@ $txt['whoall_tpmod_dlcat'] = 'Przegl±da kategoriê plików.';
 $txt['whoall_tpmod_dlitem'] = 'Przegl±da plik.';
 $txt['tp-dlsettings'] = 'Ustawienia';
 $txt['tp-downloads'] = 'Download';
+$txt['tp-downloadss1'] = 'Pobrane pliki';
 $txt['tp-dlhaverated'] = 'Ocenia³e¶ ten plik.';
 
 $txt['permissionhelp_tp_dlupload'] = 'Pozwala Ci na wys³anie pliku do Mened¿era plików';
@@ -324,4 +325,8 @@ $txt['tp-who-downloads']        = 'Przegl±da pliki';
 $txt['permissionname_tp_can_list_images'] = 'Zarz±dzaj obrazkami listy TP';
 $txt['permissionhelp_tp_can_list_images'] = 'Pozwala u¿ytkownikom na usuwanie wys³anych obrazków z katalogu obrazów TinyPortal.';
 $txt['cannot_tp_can_list_images'] = 'Przepraszamy, nie masz uprawnieñ na zarz±dzanie obrazkami w artyku³ach.';
+
+// SCE Editor //
+$txt['editor_tp_floatleft'] = 'Insert float left div';
+$txt['editor_tp_floatright'] = 'Insert float right div';
 ?>
