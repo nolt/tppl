@@ -43,7 +43,7 @@ $txt['tp-cannotcomment'] = 'Opcja komentarzy została wyłączona dla tego artyk
 $txt['tp-comments'] = 'Komentarze';
 $txt['tp-confirmdelete'] = 'Czy jesteś pewień że chcesz skasować ten artykuł?';
 $txt['tp-confirmcommentdelete'] = 'Czy jesteś pewien że chcesz skasować ten komentarz?';
-$txt['tp-arthaverated'] = 'Oceniałeś już ten artykuł.';
+$txt['tp-arthaverated'] = 'Oceniłeś już ten artykuł.';
 $txt['tp-delete'] = 'Skasuj';
 $txt['tp-editarticle']= 'Edytuj artykuł';
 $txt['tp-editarticle2']='Edytuj opcje';
@@ -209,7 +209,7 @@ $txt['whoall_tpmod_dlitem'] = 'Przegląda plik.';
 $txt['tp-dlsettings'] = 'Ustawienia';
 $txt['tp-downloads'] = 'Download';
 $txt['tp-downloadss1'] = 'Pobrane pliki';
-$txt['tp-dlhaverated'] = 'Oceniałeś ten plik.';
+$txt['tp-dlhaverated'] = 'Oceniłeś ten plik.';
 
 $txt['permissionhelp_tp_dlupload'] = 'Pozwala Ci na wysłanie pliku do Menedżera plików';
 $txt['permissionname_tp_dlcreatetopic'] = 'Stwórz wątek';
@@ -260,7 +260,7 @@ $txt['tp-fullscreenshot'] = 'Pokaż pełny obrazek';
 $txt['tp-from'] = 'Z ';
 
 $txt['tp-rates'] = 'oceny';
-$txt['tp-haverated'] = 'Już oceniałeś.';
+$txt['tp-haverated'] = 'Już oceniłeś.';
 
 $txt['tp-admin'] = 'TP Admin';
 $txt['tp-settings'] = 'Ustawienia';
@@ -327,6 +327,6 @@ $txt['permissionhelp_tp_can_list_images'] = 'Pozwala użytkownikom na usuwanie w
 $txt['cannot_tp_can_list_images'] = 'Przepraszamy, nie masz uprawnień na zarządzanie obrazkami w artykułach.';
 
 // SCE Editor //
-$txt['editor_tp_floatleft'] = 'Insert float left div';
-$txt['editor_tp_floatright'] = 'Insert float right div';
+$txt['editor_tp_floatleft'] = 'Dodaj lewą sekcję';
+$txt['editor_tp_floatright'] = 'Dodaj prawą sekcję';
 ?>
